@@ -2,13 +2,54 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 131 – Dynamic Web Fundamentals – Chukwunwike Williams Okonkwo</title>
+    <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals | Chukwunwike Williams Okonkwo | HTML, CSS, and JavaScript home page project." />
+    <meta name="author" content="Chukwunwike Williams Okonkwo" />
+
+    <link rel="stylesheet" href="styles/base.css" />
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-    Chukwunwike Williams Okonkwo
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a>
+            <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
+                target="_blank">Favorite Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Chukwunwike Williams Okonkwo</h1>
+
+        <section class="card">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Photo of Williams" />
+            <p>Hello! I am a web development student passionate about front-end design, clean code, and user-friendly
+                digital experiences. I love learning how HTML, CSS, and JavaScript come together to make interactive
+                sites.</p>
+        </section>
+
+        <section class="card">
+            <h2>My Interests</h2>
+            <img src="images/nature.jpeg" alt="Nature landscape" />
+            <p>When I’m not coding, I enjoy reading, nature walks, and exploring creative design ideas. I believe
+                technology can make a positive difference in everyday life.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> | Chukwunwike Williams Okonkwo | Nigeria
+        </p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 
 </html>
